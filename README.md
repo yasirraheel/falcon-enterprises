@@ -1,10 +1,10 @@
-# 🎮 GEO Enterprises Android App
+# 🎮 Falcon Enterprises Android App
 
 [![Version](https://img.shields.io/badge/version-2.2-blue.svg)](https://github.com/yasirraheel/geo-enterprises-android-app)
 [![Android](https://img.shields.io/badge/Android-7.0%2B-green.svg)](https://developer.android.com)
 [![License](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE)
 
-A comprehensive Android application for GEO Enterprises - a modern mobile platform for managing gaming bonds, financial transactions, and user accounts with real-time updates and seamless backend integration.
+A comprehensive Android application for Falcon Enterprises - a modern mobile platform for managing gaming bonds, financial transactions, and user accounts with real-time updates and seamless backend integration.
 
 **Current Version:** 2.2 (May 2026)
 
@@ -927,7 +927,7 @@ Solution: Client-side validation prevents submission
 
 ## 🤝 Contributing
 
-We welcome contributions to the GEO Enterprises Android App! Please follow these guidelines:
+We welcome contributions to the Falcon Enterprises Android App! Please follow these guidelines:
 
 ### How to Contribute
 
@@ -1006,7 +1006,7 @@ private ApiService apiService;
 
 <!-- Resource names: snake_case -->
 <color name="primary_color">#1976D2</color>
-<string name="app_name">GEO Enterprises</string>
+<string name="app_name">Falcon Enterprises</string>
 ```
 
 ### Testing Guidelines
@@ -1050,7 +1050,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Team
 
-- **Development**: GEO Enterprises Development Team
+- **Development**: Falcon Enterprises Development Team
 - **Backend**: Laravel API Integration
 - **UI/UX**: Material Design Implementation
 
@@ -1249,7 +1249,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ```
 MIT License
 
-Copyright (c) 2025 GEO Enterprises
+Copyright (c) 2025 Falcon Enterprises
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -1286,9 +1286,9 @@ This project uses the following open-source libraries:
 
 ### Development Team
 - **Lead Developer**: Yasir Raheel (@yasirraheel)
-- **UI/UX Design**: GEO Enterprises Design Team
+- **UI/UX Design**: Falcon Enterprises Design Team
 - **Backend Integration**: Laravel API Team
-- **Project Manager**: GEO Enterprises Management
+- **Project Manager**: Falcon Enterprises Management
 - **QA Testing**: Quality Assurance Team
 
 ### Contributors
@@ -1328,7 +1328,7 @@ We appreciate all contributors to this project. See [CONTRIBUTING.md](CONTRIBUTI
 
 #### 🌐 Social Media
 - **GitHub**: [@yasirraheel](https://github.com/yasirraheel)
-- **LinkedIn**: GEO Enterprises
+- **LinkedIn**: Falcon Enterprises
 - **Twitter**: @geoenterprises (coming soon)
 
 ### Response Times
@@ -1357,16 +1357,16 @@ Special thanks to:
 - **Open Source Contributors** for maintaining amazing libraries
 - **Stack Overflow** for solving countless development challenges
 - **Google** for Material Design guidelines and Android SDK
-- **GEO Enterprises Team** for project vision and support
+- **Falcon Enterprises Team** for project vision and support
 - **Beta Testers** for valuable feedback and bug reports
 
 ---
 
 <div align="center">
 
-**Made with ❤️ by GEO Enterprises Development Team**
+**Made with ❤️ by Falcon Enterprises Development Team**
 
-© 2025 GEO Enterprises. All Rights Reserved.
+© 2025 Falcon Enterprises. All Rights Reserved.
 
 [⬆ Back to Top](#-geo-enterprises-android-app)
 

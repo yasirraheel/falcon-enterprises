@@ -428,10 +428,10 @@ public class DashboardActivity extends BaseActivity implements NavigationView.On
             android.util.Log.e("DashboardActivity", "Error getting app version: " + e.getMessage());
         }
         
-        String aboutMessage = "GEO ENTERPRISES\n\n" +
+        String aboutMessage = "FALCON ENTERPRISES\n\n" +
                 "Version " + versionName + " (Build " + versionCode + ")\n\n" +
                 "A comprehensive platform for prize bond booking and management.\n\n" +
-                "© 2025 GEO ENTERPRISES. All rights reserved.";
+                "© 2025 FALCON ENTERPRISES. All rights reserved.";
         
         new ConfirmationDialog(this)
             .setTitle("About App")

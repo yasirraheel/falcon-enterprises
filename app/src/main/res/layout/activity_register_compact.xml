@@ -53,7 +53,7 @@
                 android:id="@+id/tv_app_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Join GEO ENTERPRISES"
+                android:text="Join FALCON ENTERPRISES"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="@color/white"

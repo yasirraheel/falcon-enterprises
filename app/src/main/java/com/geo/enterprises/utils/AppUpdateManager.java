@@ -300,7 +300,7 @@ public class AppUpdateManager {
             
             // Copy to clipboard
             ClipboardManager clipboard = (ClipboardManager) context.getSystemService(Context.CLIPBOARD_SERVICE);
-            ClipData clip = ClipData.newPlainText("GEO Enterprises Download Link", linkToCopy);
+            ClipData clip = ClipData.newPlainText("Falcon Enterprises Download Link", linkToCopy);
             clipboard.setPrimaryClip(clip);
             
             // Show confirmation toast
@@ -313,7 +313,7 @@ public class AppUpdateManager {
 
         
         btnShare.setOnClickListener(v -> {
-            String shareText = "🚀 Check out GEO Enterprises App!\n\n" +
+            String shareText = "🚀 Check out Falcon Enterprises App!\n\n" +
                     "📱 Prize Bond Booking & Management\n" +
                     "💰 Easy Deposits & Withdrawals\n" +
                     "🎯 Real-time Notifications\n\n";
@@ -327,7 +327,7 @@ public class AppUpdateManager {
             Intent shareIntent = new Intent(Intent.ACTION_SEND);
             shareIntent.setType("text/plain");
             shareIntent.putExtra(Intent.EXTRA_TEXT, shareText);
-            shareIntent.putExtra(Intent.EXTRA_SUBJECT, "GEO Enterprises App");
+            shareIntent.putExtra(Intent.EXTRA_SUBJECT, "Falcon Enterprises App");
             
             // Create chooser to show all available apps
             Intent chooserIntent = Intent.createChooser(shareIntent, "Share App via");

@@ -91,7 +91,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="GEO Enterprises"
+                    android:text="Falcon Enterprises"
                     android:textSize="@dimen/dialog_app_name_text_size"
                     android:textStyle="bold"
                     android:textColor="@color/text_primary"

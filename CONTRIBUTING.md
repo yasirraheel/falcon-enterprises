@@ -1,6 +1,6 @@
-# Contributing to GEO Enterprises Android App
+# Contributing to Falcon Enterprises Android App
 
-Thank you for your interest in contributing to the GEO Enterprises Android App! This document provides guidelines and information for contributors.
+Thank you for your interest in contributing to the Falcon Enterprises Android App! This document provides guidelines and information for contributors.
 
 ## 🤝 How to Contribute
 
@@ -280,4 +280,4 @@ Contributors will be recognized in:
 
 ---
 
-**Thank you for contributing to GEO Enterprises Android App!** 🚀
+**Thank you for contributing to Falcon Enterprises Android App!** 🚀

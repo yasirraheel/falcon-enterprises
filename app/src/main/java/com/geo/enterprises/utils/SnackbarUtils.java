@@ -181,7 +181,7 @@ public class SnackbarUtils {
      * Show registration success Snackbar
      */
     public static void showRegistrationSuccess(View parent) {
-        showSuccess(parent, "Registration successful! Welcome to GEO ENTERPRISES.");
+        showSuccess(parent, "Registration successful! Welcome to FALCON ENTERPRISES.");
     }
     
     /**

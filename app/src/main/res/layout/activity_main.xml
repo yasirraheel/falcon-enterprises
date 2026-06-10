@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/primary_color">
+
+    <!-- App Logo -->
+    <ImageView
+        android:id="@+id/iv_app_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/ic_launcher"
+        android:contentDescription="App Logo"
+        android:layout_marginBottom="24dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true" />
+
+    <!-- App Name -->
+    <TextView
+        android:id="@+id/tv_app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GEO ENTERPRISES"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_white"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Subtitle -->
+    <TextView
+        android:id="@+id/tv_app_tagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prize Bond Booking System"
+        android:textSize="16sp"
+        android:textColor="@color/text_white"
+        android:alpha="0.8" />
+
+    <!-- Loading Indicator -->
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:indeterminateTint="@color/text_white" />
+
+</LinearLayout>

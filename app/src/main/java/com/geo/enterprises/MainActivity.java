@@ -108,6 +108,11 @@ public class MainActivity extends AppCompatActivity {
         ivAppLogo = findViewById(R.id.iv_app_logo);
         tvAppTitle = findViewById(R.id.tv_app_title);
         tvAppTagline = findViewById(R.id.tv_app_tagline);
+
+        // Set a stylish placeholder immediately — never use the app icon
+        ivAppLogo.setImageDrawable(
+                androidx.core.content.ContextCompat.getDrawable(this, R.drawable.splash_placeholder)
+        );
     }
     
     private void loadAppSettings() {
@@ -145,17 +150,23 @@ public class MainActivity extends AppCompatActivity {
             tvAppTagline.setText(settings.getAppTagline());
         }
         
-        // Update app logo
-        if (settings.getAppLogo() != null && !settings.getAppLogo().isEmpty()) {
-                    Glide.with(this)
-                            .load(settings.getAppLogo())
-                            .apply(new RequestOptions()
-                                    .placeholder(R.mipmap.ic_launcher)
-                                    .error(R.mipmap.ic_launcher)
-                                    .diskCacheStrategy(DiskCacheStrategy.ALL)
-                                    .circleCrop())
-                            .into(ivAppLogo);
+        // Always load logo from server; use styled placeholder (not app icon) as fallback
+        String logoUrl = settings.getAppLogo();
+        if (logoUrl != null && !logoUrl.isEmpty()) {
+            // Build full URL if needed
+            if (!logoUrl.startsWith("http")) {
+                logoUrl = com.geo.enterprises.config.AppConfig.PUBLIC_BASE_URL + "/" + logoUrl;
+            }
+            Glide.with(this)
+                    .load(logoUrl)
+                    .apply(new RequestOptions()
+                            .placeholder(R.drawable.splash_placeholder)
+                            .error(R.drawable.splash_placeholder)
+                            .diskCacheStrategy(DiskCacheStrategy.ALL)
+                            .fitCenter())
+                    .into(ivAppLogo);
         }
+        // If no logo URL provided, the splash_placeholder set in initializeViews() remains
     }
     
     private void navigateToNextActivity() {
